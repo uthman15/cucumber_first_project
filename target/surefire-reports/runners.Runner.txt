@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: runners.Runner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 48.273 s <<< FAILURE! - in runners.Runner
+Validate SELL/TRADE invalid vin search(Carvana Functionality)  Time elapsed: 8.253 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.53)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Uthmans-MacBook-Pro.local', ip: 'fe80:0:0:0:149b:288a:a5c6:439b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/09/rldzht6j09b...}, goog:chromeOptions: {debuggerAddress: localhost:55785}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fbc21e49a41e7a260efa56c05c17774c
+
+Validate AUTO LOAN CALCULATOR under FINANCING menu item(Carvana Functionality)  Time elapsed: 12.892 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.53)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Uthmans-MacBook-Pro.local', ip: 'fe80:0:0:0:149b:288a:a5c6:439b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/09/rldzht6j09b...}, goog:chromeOptions: {debuggerAddress: localhost:55982}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2d658cdbd175cb88a7d954e5bbb4786b
+
